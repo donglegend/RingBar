@@ -2,11 +2,12 @@
 依赖jQuery，简单改写即可不依赖，如有必要，请自行修改
 
 
-## demo效果预览
+## [demo效果预览](http://donglegend.com/effects/RingBar/index.html)
 
 ## 使用说明
 引入RingBar.js之后，即可使用
 ```
+// 具体使用：
 var Bar = new RingBar($("#box"), {
 	radius: 50, // 半径，默认50
 	barWidth: 10, // 圆环宽度，默认10
@@ -18,5 +19,10 @@ var Bar = new RingBar($("#box"), {
 	fontSize: 14, // 字体大小，默认14
 	percent: 80, // 进度百分比，默认 80
 	animate: true // 是否需要动画，默认 true
+});
+
+//简单使用:
+var Bar = new RingBar($("#box"), {
+	percent: 30
 });
 ```
