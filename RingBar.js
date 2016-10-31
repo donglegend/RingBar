@@ -22,7 +22,7 @@ value: 80
 			fontFamily: "微软雅黑",
 			fontWeight: 'bold',
 			fontSize: 14,
-			percent: 0,
+			percent: 80,
 			animate: true
 		}
 
